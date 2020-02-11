@@ -5,4 +5,5 @@ module Findable
         @@artists.detect{|a| a.name == name}
       end
   end
+
 end
