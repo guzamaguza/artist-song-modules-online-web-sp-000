@@ -1,10 +1,10 @@
 module Memorable
   module reset_all
-    .all.clear
+    self.all.clear
   end
 
   module count
-    .all.count
+    self.all.count
   end
 
 end
