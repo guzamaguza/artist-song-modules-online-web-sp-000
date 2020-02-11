@@ -6,6 +6,9 @@ class Artist
 
   @@artists = []
 
+  extend memorable::reset_all
+  extend memorable::count
+
   def initialize
     @@artists << self
     @songs = []
