@@ -6,7 +6,7 @@ class Song
 
   @@songs = []
 
-  extend memorable::ClassMethods
+  extend Memorable::ClassMethods
   #extend memorable::count
 
   def initialize
