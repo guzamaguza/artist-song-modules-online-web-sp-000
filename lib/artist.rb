@@ -7,6 +7,7 @@ class Artist
   @@artists = []
 
   extend Memorable::ClassMethods
+  extend Findable::ClassMethods
 
   def initialize
     @@artists << self
